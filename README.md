@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/madhums/nodejs-express-mongoose-demo.png)](https://travis-ci.org/madhums/nodejs-express-mongoose-demo)
 
 # Nodejs Express Mongoose Demo
@@ -76,3 +77,9 @@ bloop
 bloop
 =====
 >>>>>>> 53e7b888acc1ed97bb60eeb4523d0dd701071e74
+=======
+bloop
+=====
+
+bloop
+>>>>>>> 06bdd3e428dbe75996c91c68d3dab341fd0e8699
