@@ -1,0 +1,43 @@
+extends ../layouts/default
+
+block hero-unit
+  p It's that Simple
+
+block main
+  
+//  h1= title
+
+block content
+    .row-fluid
+      .span4
+        - if (articles.length)
+           - each article in articles
+             span4
+              article
+                h3
+                  a(href='/articles/'+article._id, title=article.title) #{article.title}
+                p= article.body
+               .meta.muted
+                 span= formatDate(article.createdAt)
+                 &nbsp; - &nbsp;
+                 
+                 -if (article.user)
+                  i.icon-user
+                  span  &nbsp;
+                 - var name = article.user.name ? article.user.name : article.user.username
+                 a(href="/users/"+article.user._id)= name
+                 &nbsp; - &nbsp;
+                -if (article.tags)
+                 - each tag in article.tags.split(',')
+                  &nbsp;
+                  a.tag(href="/tags/"+tag)
+                    i.icon-tag
+                    |  #{tag}
+
+       - if (pages > 1)
+       .pagination
+        ul
+          != createPagination(pages, page)
+   - else
+     p.muted No articles.&nbsp;
+       a(href="/articles/new") create one

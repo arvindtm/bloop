@@ -9,7 +9,11 @@ block content
   - var action = '/articles'
   - action += article.isNew? '' : '/' + article.id
 
-  .row
+  .row-fluid
+    .span3
+     - if (!article.isNew && article.image && article.image.files && article.image.files.length)
+       img(src=article.image.cdnUri + "/mini_" + article.image.files[0])
+
     .span7
       form.form-horizontal(method="post", action=action, enctype="multipart/form-data")
 
@@ -41,8 +45,4 @@ block content
         .form-actions
           button.btn.btn-primary(type='submit') Save changes
           &nbsp;
-          a.btn(href='/articles', title="cancel") Cancel
-
-    .span5
-      - if (!article.isNew && article.image && article.image.files && article.image.files.length)
-        img(src=article.image.cdnUri + "/mini_" + article.image.files[0])
+          a.btn(href='/articles', title="cancel") Cancel      

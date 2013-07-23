@@ -3,14 +3,14 @@ header#header
   .navbar.navbar-fixed-top(role='navigation')
     .navbar-inner
       .container
-        a.brand(href='/') Picture this
+        a.brand(href='/') It's that Simple
         .nav-collapse.collapse
           ul.nav
             li
               a(href="/articles/new", title="new article") New
           ul.nav.pull-right
             li
-              iframe(style="border: 0; margin: 10px 0 0 0; padding: 0;", src="https://www.gittip.com/madhums/widget.html", width="48pt", height="22pt")
+              iframe(style="border: 0; display:none; margin: 10px 0 0 0; padding: 0;", src="https://www.giittip.com/madhums/widget.html", width="48pt", height="22pt")
 
             if (req.isAuthenticated())
               li
@@ -22,6 +22,6 @@ header#header
                 a(href="/login", title="Login") Login
 
   a(href="https://github.com/madhums/nodejs-express-mongoose-demo")
-    img(style="position: fixed; top: 0; right: 0; border: 0; z-index: 9999",
+    img(style="position: fixed; display: none;top: 0; right: 0; border: 0; z-index: 9999",
       src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png",
       alt="Fork me on GitHub")

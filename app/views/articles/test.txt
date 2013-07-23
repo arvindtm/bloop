@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml" itemscope="itemscope" itemtype="http://schema.org/Product">
+  <head prefix="og: http://ogp.me/ns# nodejsexpressdemo: http://ogp.me/ns/apps/nodejsexpressdemo#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>nodejs-express-mongoose-demo - Articles</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="express,mongoose,mongodb,passport,demo">
+    <meta name="description" content="A demo app illustrating the usage of express framework, mongoose orm, mongodb and stylus in node.js. The also illustrates how to properly organize your application">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"><!--
+    <Opengraph>tags</Opengraph>-->
+    <meta property="fb:app_id" content="293989217296609">
+    <meta property="og:title" content="nodejs-express-mongoose-demo - Articles">
+    <meta property="og:description" content="A demo app illustrating the usage of express framework, mongoose orm, mongodb and stylus in node.js. The also illustrates how to properly organize your application">
+    <meta property="og:url" content="http://nodejs-express-demo.herokuapp.com">
+    <meta property="og:image" content="http://blog.getbootstrap.com/wp-content/themes/bootstrap-blog/img/bootstrap-blog-logo.png">
+    <meta property="og:site_name" content="Node.js Express Mongoose Demo">
+    <meta property="fb:admins" content="1037213945"><!--
+    <Application>styles</Application>-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="/css/jquery.tagsinput.css"><!--
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">-->
+    <link rel="stylesheet" href="/css/app.css"><!--<link rel="stylesheet" href="/assets/css/application.css">--><!--
+    <Le>HTML5 shim, for IE6-8 support of HTML5 elements</Le>--><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <div role="navigation" class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container"><a href="/" class="brand">Picture this</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="/articles/new" title="new article">New</a></li>
+                </ul>
+                <ul class="nav pull-right">
+                  <li>
+                    <iframe style="border: 0; margin: 10px 0 0 0; padding: 0;" src="https://www.gittip.com/madhums/widget.html" width="48pt" height="22pt"></iframe>
+                  </li>
+                  <li><a href="/users/51e7c7dc7fffb7281f000003" title="Profile">Profile</a></li>
+                  <li><a href="/logout" title="logout">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div><a href="https://github.com/madhums/nodejs-express-mongoose-demo"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 9999" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+      </header>
+      <div class="container">
+        <div class="main-content">
+          <div class="main-head">
+            <h1>Articles</h1>
+          </div>
+          <div class="article">
+            <h3><a href="/articles/51eb4477554d8df80e000003" title="safasdf">safasdf</a></h3>
+            <p>asfdasdfsd</p>
+            <div class="meta muted"><span>July 20, 2013</span>&nbsp; - &nbsp;<span>Author &nbsp;</span><a href="/users/51e7c7dc7fffb7281f000003">aaaaa</a>&nbsp; - &nbsp;&nbsp;<a href="/tags/asadfsadf" class="tag"><i class="icon-tags"></i> asadfsadf</a>
+            </div>
+          </div>
+		  <div class="row">
+		  <div class="span5">
+          <div class="article">
+            <h3><a href="/articles/51eab2195cd83b5c02000007" title="asdf">asdf</a></h3>
+            <p>asdf</p>
+            <div class="meta muted"><span>July 20, 2013</span>&nbsp; - &nbsp;<span>Author &nbsp;</span><a href="/users/51e7c7dc7fffb7281f000003">aaaaa</a>&nbsp; - &nbsp;&nbsp;<a href="/tags/asdf" class="tag"><i class="icon-tags"></i> asdf</a>
+            </div>
+          </div>
+          <div class="article">
+            <h3><a href="/articles/51eab1ef5cd83b5c02000005" title="asdf">asdf</a></h3>
+            <p>dsf</p>
+            <div class="meta muted"><span>July 20, 2013</span>&nbsp; - &nbsp;<span>Author &nbsp;</span><a href="/users/51e7c7dc7fffb7281f000003">aaaaa</a>&nbsp; - &nbsp;&nbsp;<a href="/tags/dasfsdf" class="tag"><i class="icon-tags"></i> dasfsdf</a>
+            </div>
+          </div>
+          <div class="article">
+            <h3><a href="/articles/51eab0f35cd83b5c02000003" title="one more">one more</a></h3>
+            <p>one more</p>
+            <div class="meta muted"><span>July 20, 2013</span>&nbsp; - &nbsp;<span>Author &nbsp;</span><a href="/users/51e7c7dc7fffb7281f000003">aaaaa</a>&nbsp; - &nbsp;&nbsp;<a href="/tags/one more" class="tag"><i class="icon-tags"></i> one more</a>
+            </div>
+          </div>
+          <div class="article">
+            <h3><a href="/articles/51e9eeb66004d6f813000003" title="adsf">adsf</a></h3>
+            <p>asdf</p>
+            <div class="meta muted"><span>July 19, 2013</span>&nbsp; - &nbsp;<span>Author &nbsp;</span><a href="/users/51e7c7dc7fffb7281f000003">aaaaa</a>&nbsp; - &nbsp;&nbsp;<a href="/tags/asdff" class="tag"><i class="icon-tags"></i> asdff</a>
+            </div>
+          </div>
+		 </div> 
+		  </div>
+        </div>
+      </div>
+      <div class="push"></div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootbox.js"></script>
+    <script src="/js/jquery.tagsinput.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25468002-XXXX']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
